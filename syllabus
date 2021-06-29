@@ -1,0 +1,87 @@
+Breakpoints & Containers
+Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes in Bootstrap.
+Breakpoint 	Class 
+			infix 	Dimensions
+X-Small 	None 	<576px
+Small 		sm 		≥576px
+Medium 		md 		≥768px
+Large 		lg 		≥992px
+Extra large xl 		≥1200px
+Extra extra 
+large 		xxl 	≥1400px
+
+Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.  Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container.
+    .container, which sets a max-width at each responsive breakpoint
+    .container-fluid, which is width: 100% at all breakpoints
+    .container-{breakpoint}, which is width: 100% until the specified breakpoint
+
+Typography
+
+Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed.
+
+The term typography is also applied to the style, arrangement, and appearance of the letters, numbers, and symbols created by the process.
+Display headings
+
+Traditional heading elements are designed to work best in the meat of your page content. When you need a heading to stand out, consider using a display heading—a larger, slightly more opinionated heading 
+style.
+
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This line of text is meant to be treated as deleted text.</del></p>
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This line of text will render as underlined.</u></p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p><strong>This line rendered as bold text.</strong></p>
+<p><em>This line rendered as italicized text.</em></p>
+
+<p><abbr title="attribute">attr</abbr></p>
+<p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+
+Blockquote
+Images
+Tables
+
+Forms
+
+
+Components
+Accorddion
+An Accordion Fold refers to a document folding method that uses a series of alternating folds to create multiple panels of a similar size. 
+Diagram
+
+Alert
+Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages
+Diagram
+
+badge
+rounded-pill normal badge
+Button
+Card
+Carousel
+DropDdown
+List
+Modal
+Navs, Tabs, NavBar
+
+Utilities
+
+Background : bg-primary, 
+bg-gradient
+
+Borders:
+Additive: border, border-top...start
+Subtractive: border-0, border-top-0..
+Border color: border-primary
+Border width: border-1, border -2
+Border-radious: rounded, rounded-top,rounded-circle,rounded-pill
+Size: rounded-0,rounded-1,rounded-2
+
+Colors:
+text-primary, text-secondary, text-black-50
+
+
+Page
+
+Round button Yellow round button
+Colored Text, Inline vs Block display 
+
